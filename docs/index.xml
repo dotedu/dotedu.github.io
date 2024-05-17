@@ -605,9 +605,7 @@ title="Copy code"
 &lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>常用软件下载</title><link>https://doc.dotedu.cn/crestron/download-software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/crestron/download-software/</guid><description>
-&lt;h2>常用软件下载&lt;span class="hx-absolute -hx-mt-20" id="常用软件下载">&lt;/span>
-&lt;a href="#%e5%b8%b8%e7%94%a8%e8%bd%af%e4%bb%b6%e4%b8%8b%e8%bd%bd" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2></description></item><item><title>配置文件</title><link>https://doc.dotedu.cn/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/configuration/</guid><description>
+&lt;/div></description></item><item><title>配置文件</title><link>https://doc.dotedu.cn/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/configuration/</guid><description>
 &lt;p>Hugo 从 Hugo 网站根目录下的 &lt;code>hugo.yaml&lt;/code> 读取配置。
 在配置文件中，您可以配置站点的所有选项。
 你可以在 &lt;code>exampleSite/hugo.yaml&lt;/code> 中找到此站点的配置文件作为开始。&lt;/p>
@@ -954,7 +952,11 @@ title="Copy code"
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>代码高亮</title><link>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</guid><description>
+&lt;/div></description></item><item><title>相关软件</title><link>https://doc.dotedu.cn/crestron/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/crestron/software/</guid><description>
+&lt;h2>相关软件说明&lt;span class="hx-absolute -hx-mt-20" id="相关软件说明">&lt;/span>
+&lt;a href="#%e7%9b%b8%e5%85%b3%e8%bd%af%e4%bb%b6%e8%af%b4%e6%98%8e" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;pre>&lt;code>1. Toolbox
+3.
+&lt;/code>&lt;/pre></description></item><item><title>代码高亮</title><link>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</guid><description>
 &lt;p>Hugo 使用 &lt;a href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener">Chroma&lt;/a>，一种纯 Golang 实现的代码高亮渲染器。
 建议对 Markdown 内容中的代码块使用反引号，例如：&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
