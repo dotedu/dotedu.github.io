@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资料中心 – 介绍</title><link>https://doc.dotedu.cn/docs/</link><description>Recent content in 介绍 on 资料中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://doc.dotedu.cn/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Analog 2's Offset Converter</title><link>https://doc.dotedu.cn/crestron/function/analogoperations/ato2off/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/crestron/function/analogoperations/ato2off/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资料中心 – 介绍</title><link>https://doc.dotedu.cn/docs/</link><description>Recent content in 介绍 on 资料中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://doc.dotedu.cn/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Analog 2's Offset Converter</title><link>https://doc.dotedu.cn/crestron/function/01analogoperations/ato2off-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/crestron/function/01analogoperations/ato2off-1/</guid><description>
+&lt;h2>快捷键&lt;span class="hx-absolute -hx-mt-20" id="快捷键">&lt;/span>
+&lt;a href="#%e5%bf%ab%e6%8d%b7%e9%94%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;code>op84, ato2off&lt;/code>&lt;/p>
+&lt;h2>信号：&lt;span class="hx-absolute -hx-mt-20" id="信号">&lt;/span>
+&lt;a href="#%e4%bf%a1%e5%8f%b7" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>模拟输入： ~
+模拟输出： ~&lt;/p>
+&lt;h3>描述：&lt;span class="hx-absolute -hx-mt-20" id="描述">&lt;/span>
+&lt;a href="#%e6%8f%8f%e8%bf%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>将输入的数的符号位取反&lt;/p>
+&lt;h2>解释&lt;span class="hx-absolute -hx-mt-20" id="解释">&lt;/span>
+&lt;a href="#%e8%a7%a3%e9%87%8a" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2></description></item><item><title>Analog 2's Offset Converter</title><link>https://doc.dotedu.cn/crestron/function/01analogoperations/ato2off/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/crestron/function/01analogoperations/ato2off/</guid><description>
 &lt;h2>快捷键&lt;span class="hx-absolute -hx-mt-20" id="快捷键">&lt;/span>
 &lt;a href="#%e5%bf%ab%e6%8d%b7%e9%94%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;code>op84, ato2off&lt;/code>&lt;/p>
 &lt;h2>信号：&lt;span class="hx-absolute -hx-mt-20" id="信号">&lt;/span>
