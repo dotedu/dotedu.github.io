@@ -1873,7 +1873,7 @@ alt="Local Image"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://doc.dotedu.cn/images/space_hua812d160728a5c51b076b07e1788de7c_172460_600x0_resize_q80_h2_box.webp"
+src="https://doc.dotedu.cn/images/space_hu11732582055139980167.webp"
 width="600"
 height="450"
 />&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">Local Image&lt;/span>&lt;div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2">Image under assets directory, processed by Hugo.&lt;/div>&lt;/a>
