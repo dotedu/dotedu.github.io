@@ -1,48 +1,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>资料中心 – 短代码</title><link>https://doc.dotedu.cn/docs/guide/shortcodes/</link><description>Recent content in 短代码 on 资料中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://doc.dotedu.cn/docs/guide/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>标签页</title><link>https://doc.dotedu.cn/docs/guide/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/shortcodes/tabs/</guid><description>
 &lt;h2>示例&lt;span class="hx-absolute -hx-mt-20" id="示例">&lt;/span>
-&lt;a href="#%e7%a4%ba%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800">&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+&lt;a href="#%e7%a4%ba%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain">
+&lt;div class="hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800">&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-0"
-aria-selected="true"
-tabindex="0"
-data-state="selected"
->JSON&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected">JSON&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-1"
->YAML&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-1">YAML&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-2"
->TOML&lt;/button>&lt;/div>
+aria-controls="tabs-panel-2">TOML&lt;/button>&lt;/div>
+&lt;/div>
 &lt;div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-0"
-role="tabpanel"
-tabindex="0"
-data-state="selected"
->
-&lt;strong>JSON&lt;/strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
-&lt;/div>
+role="tabpanel" tabindex="0" data-state="selected" >&lt;strong>JSON&lt;/strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.&lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-1"
-role="tabpanel"
->
-&lt;strong>YAML&lt;/strong>: YAML is a human-readable data serialization language.
-&lt;/div>
+role="tabpanel">&lt;strong>YAML&lt;/strong>: YAML is a human-readable data serialization language.&lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-2"
-role="tabpanel"
->
-&lt;strong>TOML&lt;/strong>: TOML aims to be a minimal configuration file format that&amp;rsquo;s easy to read due to obvious semantics.
-&lt;/div>
+role="tabpanel">&lt;strong>TOML&lt;/strong>: TOML aims to be a minimal configuration file format that&amp;rsquo;s easy to read due to obvious semantics.&lt;/div>
 &lt;/div>
 &lt;h2>使用&lt;span class="hx-absolute -hx-mt-20" id="使用">&lt;/span>
 &lt;a href="#%e4%bd%bf%e7%94%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>默认情况下&lt;span class="hx-absolute -hx-mt-20" id="默认情况下">&lt;/span>
@@ -79,49 +64,34 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;p>默认为 &lt;code>YAML&lt;/code>&lt;/p>
+&lt;div class="hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain">
 &lt;div class="hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800">&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-0"
->JSON&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-0">JSON&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-1"
-aria-selected="true"
-tabindex="0"
-data-state="selected"
->YAML&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-1" aria-selected="true" tabindex="0" data-state="selected">YAML&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-2"
->TOML&lt;/button>&lt;/div>
+aria-controls="tabs-panel-2">TOML&lt;/button>&lt;/div>
+&lt;/div>
 &lt;div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-0"
-role="tabpanel"
->
-&lt;strong>JSON&lt;/strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
-&lt;/div>
+role="tabpanel">&lt;strong>JSON&lt;/strong>: JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.&lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-1"
-role="tabpanel"
-tabindex="0"
-data-state="selected"
->
-&lt;strong>YAML&lt;/strong>: YAML is a human-readable data serialization language.
-&lt;/div>
+role="tabpanel" tabindex="0" data-state="selected" >&lt;strong>YAML&lt;/strong>: YAML is a human-readable data serialization language.&lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-2"
-role="tabpanel"
->
-&lt;strong>TOML&lt;/strong>: TOML aims to be a minimal configuration file format that&amp;rsquo;s easy to read due to obvious semantics.
-&lt;/div>
+role="tabpanel">&lt;strong>TOML&lt;/strong>: TOML aims to be a minimal configuration file format that&amp;rsquo;s easy to read due to obvious semantics.&lt;/div>
 &lt;/div>
 &lt;h3>使用 Markdown&lt;span class="hx-absolute -hx-mt-20" id="使用-markdown">&lt;/span>
 &lt;a href="#%e4%bd%bf%e7%94%a8-markdown" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>还支持包括代码块的 Markdown 语法：&lt;/p>
@@ -143,34 +113,26 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
+&lt;div class="hextra-scrollbar hx-overflow-x-auto hx-overflow-y-hidden hx-overscroll-x-contain">
 &lt;div class="hx-mt-4 hx-flex hx-w-max hx-min-w-full hx-border-b hx-border-gray-200 hx-pb-px dark:hx-border-neutral-800">&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-0"
-aria-selected="true"
-tabindex="0"
-data-state="selected"
->JSON&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-0" aria-selected="true" tabindex="0" data-state="selected">JSON&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-1"
->YAML&lt;/button>&lt;button
-class="tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
+aria-controls="tabs-panel-1">YAML&lt;/button>&lt;button
+class="hextra-tabs-toggle data-[state=selected]:hx-border-primary-500 data-[state=selected]:hx-text-primary-600 hx-mr-2 hx-rounded-t hx-p-2 hx-font-medium hx-leading-5 hx-transition-colors -hx-mb-0.5 hx-select-none hx-border-b-2 hx-border-transparent hx-text-gray-600 hover:hx-border-gray-200 hover:hx-text-black dark:hx-text-gray-200 dark:hover:hx-border-neutral-800 dark:hover:hx-text-white"
 role="tab"
 type="button"
-aria-controls="tabs-panel-2"
->TOML&lt;/button>&lt;/div>
+aria-controls="tabs-panel-2">TOML&lt;/button>&lt;/div>
+&lt;/div>
 &lt;div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-0"
-role="tabpanel"
-tabindex="0"
-data-state="selected"
->
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+role="tabpanel" tabindex="0" data-state="selected" >&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span> &lt;span class="nt">&amp;#34;hello&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;world&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -183,11 +145,9 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-1"
-role="tabpanel"
->
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+role="tabpanel">&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">hello&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">world&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -200,11 +160,9 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;div
-class="tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
+class="hextra-tabs-panel hx-rounded hx-pt-6 hx-hidden data-[state=selected]:hx-block"
 id="tabs-panel-2"
-role="tabpanel"
->
-&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+role="tabpanel">&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">hello&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;world&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
@@ -463,26 +421,26 @@ title="Copy code"
 &lt;a href="#%e5%8d%a1%e7%89%87%e5%8f%82%e6%95%b0" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Parameter&lt;/th>
-&lt;th>Description&lt;/th>
+&lt;th style="text-align: left">Parameter&lt;/th>
+&lt;th style="text-align: left">Description&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;code>link&lt;/code>&lt;/td>
-&lt;td>URL（内部或外部）&lt;/td>
+&lt;td style="text-align: left">&lt;code>link&lt;/code>&lt;/td>
+&lt;td style="text-align: left">URL（内部或外部）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;code>title&lt;/code>&lt;/td>
-&lt;td>卡片的标题&lt;/td>
+&lt;td style="text-align: left">&lt;code>title&lt;/code>&lt;/td>
+&lt;td style="text-align: left">卡片的标题&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;code>subtitle&lt;/code>&lt;/td>
-&lt;td>字幕标题（支持 Markdown）&lt;/td>
+&lt;td style="text-align: left">&lt;code>subtitle&lt;/code>&lt;/td>
+&lt;td style="text-align: left">字幕标题（支持 Markdown）&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;code>icon&lt;/code>&lt;/td>
-&lt;td>图标的名称&lt;/td>
+&lt;td style="text-align: left">&lt;code>icon&lt;/code>&lt;/td>
+&lt;td style="text-align: left">图标的名称&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -491,22 +449,22 @@ title="Copy code"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Parameter&lt;/th>
-&lt;th>Description&lt;/th>
+&lt;th style="text-align: left">Parameter&lt;/th>
+&lt;th style="text-align: left">Description&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;code>image&lt;/code>&lt;/td>
-&lt;td>指定卡片的图像 URL.&lt;/td>
+&lt;td style="text-align: left">&lt;code>image&lt;/code>&lt;/td>
+&lt;td style="text-align: left">指定卡片的图像 URL.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;code>method&lt;/code>&lt;/td>
-&lt;td>设置 Hugo 的图像处理方法。&lt;/td>
+&lt;td style="text-align: left">&lt;code>method&lt;/code>&lt;/td>
+&lt;td style="text-align: left">设置 Hugo 的图像处理方法。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;code>options&lt;/code>&lt;/td>
-&lt;td>配置 Hugo 的图像处理选项。&lt;/td>
+&lt;td style="text-align: left">&lt;code>options&lt;/code>&lt;/td>
+&lt;td style="text-align: left">配置 Hugo 的图像处理选项。&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

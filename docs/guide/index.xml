@@ -126,42 +126,42 @@ title="Copy code"
 &lt;a href="#%e6%96%87%e6%9c%ac%e6%a0%b7%e5%bc%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Style&lt;/th>
-&lt;th>Syntax&lt;/th>
-&lt;th>Example&lt;/th>
-&lt;th>Output&lt;/th>
+&lt;th style="text-align: left">Style&lt;/th>
+&lt;th style="text-align: left">Syntax&lt;/th>
+&lt;th style="text-align: left">Example&lt;/th>
+&lt;th style="text-align: left">Output&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Bold&lt;/td>
-&lt;td>&lt;code>**bold text**&lt;/code>&lt;/td>
-&lt;td>&lt;code>**bold text**&lt;/code>&lt;/td>
-&lt;td>&lt;strong>bold text&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">Bold&lt;/td>
+&lt;td style="text-align: left">&lt;code>**bold text**&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>**bold text**&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>bold text&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Italic&lt;/td>
-&lt;td>&lt;code>*italicized text*&lt;/code>&lt;/td>
-&lt;td>`&lt;em>italicized text&lt;/em>&lt;/td>
-&lt;td>&lt;em>italicized text&lt;/em>&lt;/td>
+&lt;td style="text-align: left">Italic&lt;/td>
+&lt;td style="text-align: left">&lt;code>*italicized text*&lt;/code>&lt;/td>
+&lt;td style="text-align: left">`&lt;em>italicized text&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;em>italicized text&lt;/em>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Strikethrough&lt;/td>
-&lt;td>&lt;code>~~strikethrough text~~&lt;/code>&lt;/td>
-&lt;td>&lt;code>~~strikethrough text~~&lt;/code>&lt;/td>
-&lt;td>&lt;del>strikethrough text&lt;/del>&lt;/td>
+&lt;td style="text-align: left">Strikethrough&lt;/td>
+&lt;td style="text-align: left">&lt;code>~~strikethrough text~~&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>~~strikethrough text~~&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;del>strikethrough text&lt;/del>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Subscript&lt;/td>
-&lt;td>&lt;code>&amp;lt;sub&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code>&lt;/td>
-&lt;td>&lt;code>This is a &amp;lt;sub&amp;gt;subscript&amp;lt;/sub&amp;gt; text&lt;/code>&lt;/td>
-&lt;td>This is a &lt;sub>subscript&lt;/sub> text&lt;/td>
+&lt;td style="text-align: left">Subscript&lt;/td>
+&lt;td style="text-align: left">&lt;code>&amp;lt;sub&amp;gt;&amp;lt;/sub&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>This is a &amp;lt;sub&amp;gt;subscript&amp;lt;/sub&amp;gt; text&lt;/code>&lt;/td>
+&lt;td style="text-align: left">This is a &lt;sub>subscript&lt;/sub> text&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Superscript&lt;/td>
-&lt;td>&lt;code>&amp;lt;sup&amp;gt;&amp;lt;/sup&amp;gt;&lt;/code>&lt;/td>
-&lt;td>&lt;code>This is a &amp;lt;sup&amp;gt;superscript&amp;lt;/sup&amp;gt; text&lt;/code>&lt;/td>
-&lt;td>This is a &lt;sup>superscript&lt;/sup> text&lt;/td>
+&lt;td style="text-align: left">Superscript&lt;/td>
+&lt;td style="text-align: left">&lt;code>&amp;lt;sup&amp;gt;&amp;lt;/sup&amp;gt;&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;code>This is a &amp;lt;sup&amp;gt;superscript&amp;lt;/sup&amp;gt; text&lt;/code>&lt;/td>
+&lt;td style="text-align: left">This is a &lt;sup>superscript&lt;/sup> text&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -176,18 +176,18 @@ title="Copy code"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Age&lt;/th>
+&lt;th style="text-align: left">Name&lt;/th>
+&lt;th style="text-align: left">Age&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Bob&lt;/td>
-&lt;td>27&lt;/td>
+&lt;td style="text-align: left">Bob&lt;/td>
+&lt;td style="text-align: left">27&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Alice&lt;/td>
-&lt;td>23&lt;/td>
+&lt;td style="text-align: left">Alice&lt;/td>
+&lt;td style="text-align: left">23&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -195,16 +195,16 @@ title="Copy code"
 &lt;a href="#markdown-%e8%a1%a8%e6%a0%bc%e4%b8%ad%e7%9a%84%e5%86%85%e8%81%94" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Italics&lt;/th>
-&lt;th>Bold&lt;/th>
-&lt;th>Code&lt;/th>
+&lt;th style="text-align: left">Italics&lt;/th>
+&lt;th style="text-align: left">Bold&lt;/th>
+&lt;th style="text-align: left">Code&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>&lt;em>italics&lt;/em>&lt;/td>
-&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
-&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;td style="text-align: left">&lt;em>italics&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td style="text-align: left">&lt;code>code&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1043,22 +1043,22 @@ title="Copy code"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>Configuration&lt;/th>
-&lt;th>Value&lt;/th>
+&lt;th style="text-align: left">Configuration&lt;/th>
+&lt;th style="text-align: left">Value&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Production branch&lt;/td>
-&lt;td>&lt;code>main&lt;/code>&lt;/td>
+&lt;td style="text-align: left">Production branch&lt;/td>
+&lt;td style="text-align: left">&lt;code>main&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Build command&lt;/td>
-&lt;td>&lt;code>hugo --gc --minify&lt;/code>&lt;/td>
+&lt;td style="text-align: left">Build command&lt;/td>
+&lt;td style="text-align: left">&lt;code>hugo --gc --minify&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Build directory&lt;/td>
-&lt;td>&lt;code>public&lt;/code>&lt;/td>
+&lt;td style="text-align: left">Build directory&lt;/td>
+&lt;td style="text-align: left">&lt;code>public&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
