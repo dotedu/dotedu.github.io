@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAV SMART HOME 文档中心 – 高级配置</title><link>https://doc.dotedu.cn/docs/advanced/</link><description>Recent content in 高级配置 on CAV SMART HOME 文档中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://doc.dotedu.cn/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>多语言</title><link>https://doc.dotedu.cn/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/advanced/multi-language/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAV SMART HOME 文档中心 – 高级配置</title><link>https://docs.cav-sh.com/docs/advanced/</link><description>Recent content in 高级配置 on CAV SMART HOME 文档中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://docs.cav-sh.com/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>多语言</title><link>https://docs.cav-sh.com/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/advanced/multi-language/</guid><description>
 &lt;p>Hextra 支持使用 Hugo 的&lt;a href="https://gohugo.io/content-management/multilingual/" target="_blank" rel="noopener">多语言模式&lt;/a> 创建多语言的网站。&lt;/p>
 &lt;h2>启用多语言支持&lt;span class="hx-absolute -hx-mt-20" id="启用多语言支持">&lt;/span>
 &lt;a href="#%e5%90%af%e7%94%a8%e5%a4%9a%e8%af%ad%e8%a8%80%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>为了使我们的网站支持多语言，我们需要告诉 Hugo 需要支持的语言。 在站点配置文件中添加：&lt;/p>
@@ -100,7 +100,7 @@ title="Copy code"
 &lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/" target="_blank" rel="noopener">Hugo Multilingual Mode&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/" target="_blank" rel="noopener">Hugo Multilingual Part 1: Content translation&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/" target="_blank" rel="noopener">Hugo Multilingual Part 2: Strings localization&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>评论系统</title><link>https://doc.dotedu.cn/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/advanced/comments/</guid><description>
+&lt;/ul></description></item><item><title>评论系统</title><link>https://docs.cav-sh.com/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/advanced/comments/</guid><description>
 &lt;p>Hextra 支持在你的网站中添加评论系统。
 目前已经支持 &lt;a href="https://giscus.app/" target="_blank" rel="noopener">giscus&lt;/a>.&lt;/p>
 &lt;h2>giscus&lt;span class="hx-absolute -hx-mt-20" id="giscus">&lt;/span>
@@ -141,7 +141,7 @@ title="Copy code"
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>自定义 Hextra</title><link>https://doc.dotedu.cn/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/advanced/customization/</guid><description>
+&lt;/div></description></item><item><title>自定义 Hextra</title><link>https://docs.cav-sh.com/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/advanced/customization/</guid><description>
 &lt;p>Hextra 在 &lt;code>hugo.yaml&lt;/code> 中提供了一些自定义选项来配置主题。
 本页介绍了可用选项以及如何进一步自定义主题。&lt;/p>
 &lt;h2>自定义 CSS&lt;span class="hx-absolute -hx-mt-20" id="自定义-css">&lt;/span>

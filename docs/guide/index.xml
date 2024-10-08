@@ -1,6 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAV SMART HOME 文档中心 – 指南</title><link>https://doc.dotedu.cn/docs/guide/</link><description>Recent content in 指南 on CAV SMART HOME 文档中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://doc.dotedu.cn/docs/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>目录结构</title><link>https://doc.dotedu.cn/docs/guide/organize-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/organize-files/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAV SMART HOME 文档中心 – 指南</title><link>https://docs.cav-sh.com/docs/guide/</link><description>Recent content in 指南 on CAV SMART HOME 文档中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://docs.cav-sh.com/docs/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>目录结构</title><link>https://docs.cav-sh.com/docs/guide/organize-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/organize-files/</guid><description>
 &lt;h2>目录结构&lt;span class="hx-absolute -hx-mt-20" id="目录结构">&lt;/span>
-&lt;a href="#%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>默认情况下，Hugo 在 &lt;code>context&lt;/code> 目录中搜索 Markdown 文件，目录的结构决定了网站的最终输出结构。
+&lt;a href="#%e7%9b%ae%e5%bd%95%e7%bb%93%e6%9e%84" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>默认情况下，Hugo 在 &lt;code>content&lt;/code> 目录中搜索 Markdown 文件，目录的结构决定了网站的最终输出结构。
 以示例网站为例：&lt;/p>
 &lt;div class="hextra-filetree hx-mt-6 hx-select-none hx-text-sm hx-text-gray-800 dark:hx-text-gray-300 not-prose">
 &lt;div class="hx-inline-block hx-rounded-lg hx-border hx-px-4 hx-py-2 dark:hx-border-neutral-800">
@@ -119,7 +119,7 @@ title="Copy code"
 &lt;/div>
 &lt;/div>
 &lt;h2>配置内容目录&lt;span class="hx-absolute -hx-mt-20" id="配置内容目录">&lt;/span>
-&lt;a href="#%e9%85%8d%e7%bd%ae%e5%86%85%e5%ae%b9%e7%9b%ae%e5%bd%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>如果需要为的内容使用不同的目录，可以在站点配置文件中设置 &lt;a href="https://gohugo.io/getting-started/configuration/#contentdir" target="_blank" rel="noopener">&lt;code>contentDir&lt;/code>&lt;/a> 来实现。&lt;/p></description></item><item><title>Markdown</title><link>https://doc.dotedu.cn/docs/guide/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/markdown/</guid><description>
+&lt;a href="#%e9%85%8d%e7%bd%ae%e5%86%85%e5%ae%b9%e7%9b%ae%e5%bd%95" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>如果需要为的内容使用不同的目录，可以在站点配置文件中设置 &lt;a href="https://gohugo.io/getting-started/configuration/#contentdir" target="_blank" rel="noopener">&lt;code>contentDir&lt;/code>&lt;/a> 来实现。&lt;/p></description></item><item><title>Markdown</title><link>https://docs.cav-sh.com/docs/guide/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/markdown/</guid><description>
 &lt;p>Hugo 支持 &lt;a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Markdown&lt;/a> 来书写内容，创建列表等。本页将向你展示一些最常见的 Markdown 语法示例。&lt;/p>
 &lt;h2>Markdown 示例&lt;span class="hx-absolute -hx-mt-20" id="markdown-示例">&lt;/span>
 &lt;a href="#markdown-%e7%a4%ba%e4%be%8b" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>文本样式&lt;span class="hx-absolute -hx-mt-20" id="文本样式">&lt;/span>
@@ -171,6 +171,20 @@ title="Copy code"
 &lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
 — &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">Don&amp;#39;t communicate by sharing memory, share memory by communicating.&amp;lt;br&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="ge">&lt;/span>&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">— &amp;lt;cite&amp;gt;Rob Pike[^1]&amp;lt;/cite&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="ge">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[^1]: The above quote is excerpted from Rob Pike&amp;#39;s [&lt;span class="nt">talk&lt;/span>](&lt;span class="na">https://www.youtube.com/watch?v=PAAkCSZUG1c&lt;/span>) during Gopherfest, November 18, 2015.&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h3>表格&lt;span class="hx-absolute -hx-mt-20" id="表格">&lt;/span>
 &lt;a href="#%e8%a1%a8%e6%a0%bc" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>表格并非核心 Markdown 规范，但 Hugo 支持开箱即用的表格：&lt;/p>
 &lt;table>
@@ -191,6 +205,20 @@ title="Copy code"
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">| Name | Age |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">|--------|------|
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| Bob | 27 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| Alice | 23 |&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h4>Markdown 表格中的内联&lt;span class="hx-absolute -hx-mt-20" id="markdown-表格中的内联">&lt;/span>
 &lt;a href="#markdown-%e8%a1%a8%e6%a0%bc%e4%b8%ad%e7%9a%84%e5%86%85%e8%81%94" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;table>
 &lt;thead>
@@ -208,6 +236,19 @@ title="Copy code"
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">| Italics | Bold | Code |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| -------- | -------- | ------ |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| &lt;span class="ge">*italics*&lt;/span> | &lt;span class="gs">**bold**&lt;/span> | &lt;span class="sb">`code`&lt;/span> |&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h3>代码块&lt;span class="hx-absolute -hx-mt-20" id="代码块">&lt;/span>
 &lt;a href="#%e4%bb%a3%e7%a0%81%e5%9d%97" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
 &lt;a
@@ -221,12 +262,38 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;li>Second item&lt;/li>
 &lt;li>Third item&lt;/li>
 &lt;/ol>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">1.&lt;/span> First item
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">2.&lt;/span> Second item
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. Third item&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h4>无序列表&lt;span class="hx-absolute -hx-mt-20" id="无序列表">&lt;/span>
 &lt;a href="#%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
 &lt;li>List item&lt;/li>
 &lt;li>Another item&lt;/li>
 &lt;li>And another item&lt;/li>
 &lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">*&lt;/span> List item
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">*&lt;/span> Another item
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* And another item&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h4>嵌套列表&lt;span class="hx-absolute -hx-mt-20" id="嵌套列表">&lt;/span>
 &lt;a href="#%e5%b5%8c%e5%a5%97%e5%88%97%e8%a1%a8" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
 &lt;li>Fruit
@@ -243,13 +310,52 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">*&lt;/span> Fruit
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">*&lt;/span> Apple
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">*&lt;/span> Orange
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">*&lt;/span> Banana
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">*&lt;/span> Dairy
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">*&lt;/span> Milk
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> * Cheese&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h3>图片&lt;span class="hx-absolute -hx-mt-20" id="图片">&lt;/span>
-&lt;a href="#%e5%9b%be%e7%89%87" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://source.unsplash.com/featured/800x600?landscape" alt="" loading="lazy" />&lt;/p>
+&lt;a href="#%e5%9b%be%e7%89%87" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>&lt;img src="https://picsum.photos/800/600" alt="landscape" loading="lazy" />&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">landscape&lt;/span>](&lt;span class="na">https://picsum.photos/800/600&lt;/span>)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;p>带有标题：&lt;/p>
 &lt;p>&lt;figure>
-&lt;img src="https://source.unsplash.com/featured/800x600?landscape" title="Unsplash Landscape" alt="" loading="lazy" />
+&lt;img src="https://picsum.photos/800/600" title="Unsplash Landscape" alt="landscape" loading="lazy" />
 &lt;figcaption>Unsplash Landscape&lt;/figcaption>
 &lt;/figure>&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">landscape&lt;/span>](&lt;span class="na">https://picsum.photos/800/600 &amp;#34;Unsplash Landscape&amp;#34;&lt;/span>)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
 &lt;h2>配置&lt;span class="hx-absolute -hx-mt-20" id="配置">&lt;/span>
 &lt;a href="#%e9%85%8d%e7%bd%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Hugo 使用 &lt;a href="https://github.com/yuin/goldmark" target="_blank" rel="noopener">Goldmark&lt;/a> 解析 Markdown。
 Markdown 渲染可以在 &lt;code>hugo.yaml&lt;/code> 中的 &lt;code>markup.goldmark&lt;/code> 中配置。以下是Hextra的默认配置：&lt;/p>
@@ -284,7 +390,7 @@ title="Copy code"
 &lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>配置文件</title><link>https://doc.dotedu.cn/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/configuration/</guid><description>
+&lt;/div></description></item><item><title>配置文件</title><link>https://docs.cav-sh.com/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/configuration/</guid><description>
 &lt;p>Hugo 从 Hugo 网站根目录下的 &lt;code>hugo.yaml&lt;/code> 读取配置。
 在配置文件中，您可以配置站点的所有选项。
 你可以在 &lt;code>exampleSite/hugo.yaml&lt;/code> 中找到此站点的配置文件作为开始。&lt;/p>
@@ -386,7 +492,7 @@ title="Copy code"
 &lt;h2>侧边栏&lt;span class="hx-absolute -hx-mt-20" id="侧边栏">&lt;/span>
 &lt;a href="#%e4%be%a7%e8%be%b9%e6%a0%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>主侧边栏&lt;span class="hx-absolute -hx-mt-20" id="主侧边栏">&lt;/span>
 &lt;a href="#%e4%b8%bb%e4%be%a7%e8%be%b9%e6%a0%8f" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>主侧边栏是自动从 &lt;code>content&lt;/code> 目录结构生成的。
-有关更多详细信息，转至 &lt;a href="https://doc.dotedu.cn/docs/guide/organize-files" >目录结构&lt;/a>。&lt;/p>
+有关更多详细信息，转至 &lt;a href="https://docs.cav-sh.com/docs/guide/organize-files" >目录结构&lt;/a>。&lt;/p>
 &lt;h3>额外链接&lt;span class="hx-absolute -hx-mt-20" id="额外链接">&lt;/span>
 &lt;a href="#%e9%a2%9d%e5%a4%96%e9%93%be%e6%8e%a5" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>侧边栏的额外链接在配置文件的 &lt;code>menu.sidebar&lt;/code> 部分中配置：&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
@@ -602,6 +708,32 @@ title="Copy code"
 &lt;li>&lt;code>heading&lt;/code> - 一级和二级标题&lt;/li>
 &lt;li>&lt;code>title&lt;/code> - 仅搜索标题&lt;/li>
 &lt;/ul>
+&lt;p>要自定义检索分词，请在配置文件中设置&lt;code>params.search.flexsearch.tokenize&lt;/code>：&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-hugo.yaml" data-lang="hugo.yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">params&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># ...&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">flexsearch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># full | forward | reverse | strict &lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">tokenize&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">forward&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;a href="https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search" target="_blank" rel="noopener">&lt;code>flexsearch.tokenize&lt;/code>&lt;/a>的可选项:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>strict&lt;/code> - 严格单词匹配&lt;/li>
+&lt;li>&lt;code>forward&lt;/code> - 单词前缀匹配&lt;/li>
+&lt;li>&lt;code>reverse&lt;/code> - 单词前后缀匹配&lt;/li>
+&lt;li>&lt;code>full&lt;/code> - 单词子串匹配。&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>在默认的分词逻辑下，中文一句话就是一个“单词”&lt;/p>
+&lt;/blockquote>
 &lt;p>要从搜索索引中排除页面，更改 front matter 中的 &lt;code>excludeSearch: true&lt;/code>:&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div class="filename" dir="auto">content/docs/guide/configuration.md&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
@@ -631,7 +763,7 @@ title="Copy code"
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;/button>
 &lt;/div>
-&lt;/div></description></item><item><title>代码高亮</title><link>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/syntax-highlighting/</guid><description>
+&lt;/div></description></item><item><title>代码高亮</title><link>https://docs.cav-sh.com/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/syntax-highlighting/</guid><description>
 &lt;p>Hugo 使用 &lt;a href="https://github.com/alecthomas/chroma" target="_blank" rel="noopener">Chroma&lt;/a>，一种纯 Golang 实现的代码高亮渲染器。
 建议对 Markdown 内容中的代码块使用反引号，例如：&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
@@ -774,7 +906,7 @@ title="Copy code"
 &lt;h3>复制按钮&lt;span class="hx-absolute -hx-mt-20" id="复制按钮">&lt;/span>
 &lt;a href="#%e5%a4%8d%e5%88%b6%e6%8c%89%e9%92%ae" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>默认情况下，代码块复制按钮已自动启用。&lt;/p>
 &lt;h2>支持的编程语言&lt;span class="hx-absolute -hx-mt-20" id="支持的编程语言">&lt;/span>
-&lt;a href="#%e6%94%af%e6%8c%81%e7%9a%84%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>如需了解支持的编程语言，转至 &lt;a href="https://github.com/alecthomas/chroma#supported-languages" target="_blank" rel="noopener">Chroma&amp;rsquo;s documentation&lt;/a>。&lt;/p></description></item><item><title>LaTeX 公式</title><link>https://doc.dotedu.cn/docs/guide/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/latex/</guid><description>
+&lt;a href="#%e6%94%af%e6%8c%81%e7%9a%84%e7%bc%96%e7%a8%8b%e8%af%ad%e8%a8%80" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>如需了解支持的编程语言，转至 &lt;a href="https://github.com/alecthomas/chroma#supported-languages" target="_blank" rel="noopener">Chroma&amp;rsquo;s documentation&lt;/a>。&lt;/p></description></item><item><title>LaTeX 公式</title><link>https://docs.cav-sh.com/docs/guide/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/latex/</guid><description>
 &lt;p>$\KaTeX$ 用于呈现 LaTeX 数学表达式。可在 &lt;code>frontmatter&lt;/code> 将 &lt;code>math&lt;/code> 设置为 &lt;code>true&lt;/code> 来启用。&lt;/p>
 &lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
 &lt;div class="filename" dir="auto">Markdown&lt;/div>&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
@@ -837,7 +969,7 @@ title="Copy code"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>$$\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}$$&lt;/p></description></item><item><title>图表</title><link>https://doc.dotedu.cn/docs/guide/diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/diagrams/</guid><description>
+&lt;p>$$\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}$$&lt;/p></description></item><item><title>图表</title><link>https://docs.cav-sh.com/docs/guide/diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/diagrams/</guid><description>
 &lt;p>目前，Hextra 支持 &lt;a href="#mermaid" >Mermaid&lt;/a> 的图表。&lt;/p>
 &lt;h2>Mermaid&lt;span class="hx-absolute -hx-mt-20" id="mermaid">&lt;/span>
 &lt;a href="#mermaid" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://github.com/mermaid-js/mermaid#readme" target="_blank" rel="noopener">Mermaid&lt;/a> 是一个基于 JavaScript 的图表绘制工具，它的文本定义和 Markdown 类似，可在浏览器中动态创建图表。例如：流程图、序列图、饼图等。&lt;/p>
@@ -875,7 +1007,7 @@ end
 Note right of John: Rational thoughts &lt;br/>prevail!
 John-->>Alice: Great!
 John->>Bob: How about you?
-Bob-->>John: Jolly good!&lt;/pre>&lt;p>如需获取更多信息，转至 &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid Documentation&lt;/a>。&lt;/p></description></item><item><title>短代码</title><link>https://doc.dotedu.cn/docs/guide/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/shortcodes/</guid><description>
+Bob-->>John: Jolly good!&lt;/pre>&lt;p>如需获取更多信息，转至 &lt;a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Mermaid Documentation&lt;/a>。&lt;/p></description></item><item><title>短代码</title><link>https://docs.cav-sh.com/docs/guide/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/shortcodes/</guid><description>
 &lt;p>&lt;a href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener">Hugo 短代码&lt;/a> 是你的内容文件中调用内置或自定义模板的简单片段。&lt;/p>
 &lt;p>Hextra 提供了一系列美观的短代码以增强你的内容。&lt;/p>
 &lt;div class="hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose" style="--hextra-cards-grid-cols: 3;">
@@ -897,7 +1029,7 @@ class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hid
 &lt;a
 class="hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900"href="tabs"
 >&lt;span class="hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-p-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">&lt;path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>&lt;/svg>标签&lt;/span>&lt;/a>
-&lt;/div></description></item><item><title>部署站点</title><link>https://doc.dotedu.cn/docs/guide/deploy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://doc.dotedu.cn/docs/guide/deploy-site/</guid><description>
+&lt;/div></description></item><item><title>部署站点</title><link>https://docs.cav-sh.com/docs/guide/deploy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/docs/guide/deploy-site/</guid><description>
 &lt;p>Hugo 生成静态站点，允许多种托管方式，你可以自由选择
 本页将给出部署你的 Hextra 站点的方法&lt;/p>
 &lt;h2>GitHub Pages&lt;span class="hx-absolute -hx-mt-20" id="github-pages">&lt;/span>
