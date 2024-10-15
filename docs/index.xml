@@ -1652,33 +1652,33 @@ to { -webkit-transform: rotate(360deg); }
 @-webkit-keyframes spin {
 to { -webkit-transform: rotate(360deg); }
 }
-&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-b9f59a29">
-&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-b9f59a29">
-&lt;div class="pdf-loading" id="pdf-loading-b9f59a29">&lt;/div>
+&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-bea3a976">
+&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-bea3a976">
+&lt;div class="pdf-loading" id="pdf-loading-bea3a976">&lt;/div>
 &lt;/div>
 &lt;div id="overlayText">
-&lt;a href="../pdf/yue/P8H.pdf" aria-label="Download" download>
+&lt;a href="https://docs.cav-sh.com/pdf/yue/P8H.pdf" aria-label="Download" download>
 &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
 &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
 &lt;/svg>
 &lt;/a>
 &lt;/div>
-&lt;canvas class="pdf-canvas" id="pdf-canvas-b9f59a29">&lt;/canvas>
+&lt;canvas class="pdf-canvas" id="pdf-canvas-bea3a976">&lt;/canvas>
 &lt;/div>
-&lt;div class="pdf-paginator" id="pdf-paginator-b9f59a29">
-&lt;button id="pdf-prev-b9f59a29">Previous&lt;/button>
-&lt;button id="pdf-next-b9f59a29">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;div class="pdf-paginator" id="pdf-paginator-bea3a976">
+&lt;button id="pdf-prev-bea3a976">Previous&lt;/button>
+&lt;button id="pdf-next-bea3a976">Next&lt;/button> &amp;nbsp; &amp;nbsp;
 &lt;span>
-&lt;span class="pdf-pagenum" id="pdf-pagenum-b9f59a29">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-b9f59a29">&lt;/span>
+&lt;span class="pdf-pagenum" id="pdf-pagenum-bea3a976">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-bea3a976">&lt;/span>
 &lt;/span>
-&lt;a class="pdf-source" id="pdf-source-b9f59a29" href="../pdf/yue/P8H.pdf">[pdf]&lt;/a>
+&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[pdf]&lt;/a>
 &lt;/div>
 &lt;noscript>
-View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-b9f59a29" href="../pdf/yue/P8H.pdf">here&lt;/a>.
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">here&lt;/a>.
 &lt;/noscript>
 &lt;script type="text/javascript">
 (function(){
-var url = '..\/pdf\/yue\/P8H.pdf';
+var url = '\/pdf\/yue\/P8H.pdf';
 var hidePaginator = "" === "true";
 var hideLoader = "" === "true";
 var selectedPageNum = parseInt("") || 1;
@@ -1690,10 +1690,10 @@ pageNum = selectedPageNum,
 pageRendering = false,
 pageNumPending = null,
 scale = 3,
-canvas = document.getElementById('pdf-canvas-b9f59a29'),
+canvas = document.getElementById('pdf-canvas-bea3a976'),
 ctx = canvas.getContext('2d'),
-paginator = document.getElementById("pdf-paginator-b9f59a29"),
-loadingWrapper = document.getElementById('pdf-loadingWrapper-b9f59a29');
+paginator = document.getElementById("pdf-paginator-bea3a976"),
+loadingWrapper = document.getElementById('pdf-loadingWrapper-bea3a976');
 showPaginator();
 showLoader();
 function renderPage(num) {
@@ -1716,7 +1716,7 @@ pageNumPending = null;
 }
 });
 });
-document.getElementById('pdf-pagenum-b9f59a29').textContent = num;
+document.getElementById('pdf-pagenum-bea3a976').textContent = num;
 }
 function showContent() {
 loadingWrapper.style.display = 'none';
@@ -1745,7 +1745,7 @@ return;
 pageNum--;
 queueRenderPage(pageNum);
 }
-document.getElementById('pdf-prev-b9f59a29').addEventListener('click', onPrevPage);
+document.getElementById('pdf-prev-bea3a976').addEventListener('click', onPrevPage);
 function onNextPage() {
 if (pageNum >= pdfDoc.numPages) {
 return;
@@ -1753,11 +1753,11 @@ return;
 pageNum++;
 queueRenderPage(pageNum);
 }
-document.getElementById('pdf-next-b9f59a29').addEventListener('click', onNextPage);
+document.getElementById('pdf-next-bea3a976').addEventListener('click', onNextPage);
 pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 pdfDoc = pdfDoc_;
 var numPages = pdfDoc.numPages;
-document.getElementById('pdf-pagecount-b9f59a29').textContent = numPages;
+document.getElementById('pdf-pagecount-bea3a976').textContent = numPages;
 if(pageNum > numPages) {
 pageNum = numPages
 }
