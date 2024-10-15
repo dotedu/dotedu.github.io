@@ -1624,6 +1624,12 @@ border-top-color: #383838;
 animation: spin 1s ease-in-out infinite;
 -webkit-animation: spin 1s ease-in-out infinite;
 }
+.paginator {
+padding-top: 15px;
+}
+.paginator button{
+padding: 10px;
+}
 #overlayText {
 word-wrap: break-word;
 display: grid;
@@ -1666,12 +1672,12 @@ to { -webkit-transform: rotate(360deg); }
 &lt;canvas class="pdf-canvas" id="pdf-canvas-bea3a976">&lt;/canvas>
 &lt;/div>
 &lt;div class="pdf-paginator" id="pdf-paginator-bea3a976">
-&lt;button id="pdf-prev-bea3a976">Previous&lt;/button>
-&lt;button id="pdf-next-bea3a976">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;button id="pdf-prev-bea3a976">上一页 &lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;button id="pdf-next-bea3a976">下一页&lt;/button> &amp;nbsp; &amp;nbsp;
 &lt;span>
 &lt;span class="pdf-pagenum" id="pdf-pagenum-bea3a976">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-bea3a976">&lt;/span>
 &lt;/span>
-&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[pdf]&lt;/a>
+&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[下载pdf]&lt;/a>
 &lt;/div>
 &lt;noscript>
 View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">here&lt;/a>.
