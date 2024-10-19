@@ -191,18 +191,18 @@ title="Copy code"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">Syntax&lt;/th>
-&lt;th style="text-align: left">Description&lt;/th>
+&lt;th>Syntax&lt;/th>
+&lt;th>Description&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">Header&lt;/td>
-&lt;td style="text-align: left">Title&lt;/td>
+&lt;td>Header&lt;/td>
+&lt;td>Title&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">Paragraph&lt;/td>
-&lt;td style="text-align: left">Text&lt;/td>
+&lt;td>Paragraph&lt;/td>
+&lt;td>Text&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

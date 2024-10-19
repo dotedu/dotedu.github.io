@@ -1,0 +1,559 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CAV SMART HOME 帮助中心 – 悦系列面板</title><link>https://docs.cav-sh.com/instructions/yue/</link><description>Recent content in 悦系列面板 on CAV SMART HOME 帮助中心</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://docs.cav-sh.com/instructions/yue/index.xml" rel="self" type="application/rss+xml"/><item><title>P8H</title><link>https://docs.cav-sh.com/instructions/yue/p8h/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/instructions/yue/p8h/</guid><description>
+&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+&lt;style>
+#embed-pdf-container {
+position: relative;
+width: 100%;
+height: auto;
+min-height: 20vh;
+}
+.pdf-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+#the-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+.pdf-loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+.pdf-loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+.paginator {
+padding-top: 15px;
+}
+.paginator button{
+padding: 10px;
+}
+#overlayText {
+word-wrap: break-word;
+display: grid;
+justify-content: end;
+}
+#overlayText a {
+position: relative;
+top: 10px;
+right: 4px;
+color: #000;
+margin: auto;
+background-color: #eeeeee;
+padding: 0.3em 1em;
+border: solid 2px;
+border-radius: 12px;
+border-color: #00000030;
+text-decoration: none;
+}
+#overlayText svg {
+height: clamp(1em, 2vw, 1.4em);
+width: clamp(1em, 2vw, 1.4em);
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-bea3a976">
+&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-bea3a976">
+&lt;div class="pdf-loading" id="pdf-loading-bea3a976">&lt;/div>
+&lt;/div>
+&lt;div id="overlayText">
+&lt;a href="https://docs.cav-sh.com/pdf/yue/P8H.pdf" aria-label="Download" download>
+&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+&lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+&lt;/svg>
+&lt;/a>
+&lt;/div>
+&lt;canvas class="pdf-canvas" id="pdf-canvas-bea3a976">&lt;/canvas>
+&lt;/div>
+&lt;div class="pdf-paginator" id="pdf-paginator-bea3a976">
+&lt;button id="pdf-prev-bea3a976">上一页 &lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;button id="pdf-next-bea3a976">下一页&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;span>
+&lt;span class="pdf-pagenum" id="pdf-pagenum-bea3a976">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-bea3a976">&lt;/span>
+&lt;/span>
+&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[下载pdf]&lt;/a>
+&lt;/div>
+&lt;noscript>
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">here&lt;/a>.
+&lt;/noscript>
+&lt;script type="text/javascript">
+(function(){
+var url = '\/pdf\/yue\/P8H.pdf';
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/docs.cav-sh.com\/" + 'js/pdf-js/build/pdf.worker.js';
+var pdfDoc = null,
+pageNum = selectedPageNum,
+pageRendering = false,
+pageNumPending = null,
+scale = 3,
+canvas = document.getElementById('pdf-canvas-bea3a976'),
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("pdf-paginator-bea3a976"),
+loadingWrapper = document.getElementById('pdf-loadingWrapper-bea3a976');
+showPaginator();
+showLoader();
+function renderPage(num) {
+pageRendering = true;
+pdfDoc.getPage(num).then(function(page) {
+var viewport = page.getViewport({scale: scale});
+canvas.height = viewport.height;
+canvas.width = viewport.width;
+var renderContext = {
+canvasContext: ctx,
+viewport: viewport
+};
+var renderTask = page.render(renderContext);
+renderTask.promise.then(function() {
+pageRendering = false;
+showContent();
+if (pageNumPending !== null) {
+renderPage(pageNumPending);
+pageNumPending = null;
+}
+});
+});
+document.getElementById('pdf-pagenum-bea3a976').textContent = num;
+}
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
+function queueRenderPage(num) {
+if (pageRendering) {
+pageNumPending = num;
+} else {
+renderPage(num);
+}
+}
+function onPrevPage() {
+if (pageNum &lt;= 1) {
+return;
+}
+pageNum--;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-prev-bea3a976').addEventListener('click', onPrevPage);
+function onNextPage() {
+if (pageNum >= pdfDoc.numPages) {
+return;
+}
+pageNum++;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-next-bea3a976').addEventListener('click', onNextPage);
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+pdfDoc = pdfDoc_;
+var numPages = pdfDoc.numPages;
+document.getElementById('pdf-pagecount-bea3a976').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
+renderPage(pageNum);
+});
+})();
+&lt;/script></description></item><item><title>P8S-KNX</title><link>https://docs.cav-sh.com/instructions/yue/p8s-knx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/instructions/yue/p8s-knx/</guid><description>
+&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+&lt;style>
+#embed-pdf-container {
+position: relative;
+width: 100%;
+height: auto;
+min-height: 20vh;
+}
+.pdf-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+#the-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+.pdf-loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+.pdf-loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+.paginator {
+padding-top: 15px;
+}
+.paginator button{
+padding: 10px;
+}
+#overlayText {
+word-wrap: break-word;
+display: grid;
+justify-content: end;
+}
+#overlayText a {
+position: relative;
+top: 10px;
+right: 4px;
+color: #000;
+margin: auto;
+background-color: #eeeeee;
+padding: 0.3em 1em;
+border: solid 2px;
+border-radius: 12px;
+border-color: #00000030;
+text-decoration: none;
+}
+#overlayText svg {
+height: clamp(1em, 2vw, 1.4em);
+width: clamp(1em, 2vw, 1.4em);
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-bea3a976">
+&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-bea3a976">
+&lt;div class="pdf-loading" id="pdf-loading-bea3a976">&lt;/div>
+&lt;/div>
+&lt;div id="overlayText">
+&lt;a href="https://docs.cav-sh.com/pdf/yue/P8H.pdf" aria-label="Download" download>
+&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+&lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+&lt;/svg>
+&lt;/a>
+&lt;/div>
+&lt;canvas class="pdf-canvas" id="pdf-canvas-bea3a976">&lt;/canvas>
+&lt;/div>
+&lt;div class="pdf-paginator" id="pdf-paginator-bea3a976">
+&lt;button id="pdf-prev-bea3a976">上一页 &lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;button id="pdf-next-bea3a976">下一页&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;span>
+&lt;span class="pdf-pagenum" id="pdf-pagenum-bea3a976">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-bea3a976">&lt;/span>
+&lt;/span>
+&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[下载pdf]&lt;/a>
+&lt;/div>
+&lt;noscript>
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">here&lt;/a>.
+&lt;/noscript>
+&lt;script type="text/javascript">
+(function(){
+var url = '\/pdf\/yue\/P8H.pdf';
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/docs.cav-sh.com\/" + 'js/pdf-js/build/pdf.worker.js';
+var pdfDoc = null,
+pageNum = selectedPageNum,
+pageRendering = false,
+pageNumPending = null,
+scale = 3,
+canvas = document.getElementById('pdf-canvas-bea3a976'),
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("pdf-paginator-bea3a976"),
+loadingWrapper = document.getElementById('pdf-loadingWrapper-bea3a976');
+showPaginator();
+showLoader();
+function renderPage(num) {
+pageRendering = true;
+pdfDoc.getPage(num).then(function(page) {
+var viewport = page.getViewport({scale: scale});
+canvas.height = viewport.height;
+canvas.width = viewport.width;
+var renderContext = {
+canvasContext: ctx,
+viewport: viewport
+};
+var renderTask = page.render(renderContext);
+renderTask.promise.then(function() {
+pageRendering = false;
+showContent();
+if (pageNumPending !== null) {
+renderPage(pageNumPending);
+pageNumPending = null;
+}
+});
+});
+document.getElementById('pdf-pagenum-bea3a976').textContent = num;
+}
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
+function queueRenderPage(num) {
+if (pageRendering) {
+pageNumPending = num;
+} else {
+renderPage(num);
+}
+}
+function onPrevPage() {
+if (pageNum &lt;= 1) {
+return;
+}
+pageNum--;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-prev-bea3a976').addEventListener('click', onPrevPage);
+function onNextPage() {
+if (pageNum >= pdfDoc.numPages) {
+return;
+}
+pageNum++;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-next-bea3a976').addEventListener('click', onNextPage);
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+pdfDoc = pdfDoc_;
+var numPages = pdfDoc.numPages;
+document.getElementById('pdf-pagecount-bea3a976').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
+renderPage(pageNum);
+});
+})();
+&lt;/script></description></item><item><title>P8S&amp;P8R</title><link>https://docs.cav-sh.com/instructions/yue/p8sp8r/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.cav-sh.com/instructions/yue/p8sp8r/</guid><description>
+&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+&lt;style>
+#embed-pdf-container {
+position: relative;
+width: 100%;
+height: auto;
+min-height: 20vh;
+}
+.pdf-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+#the-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+.pdf-loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+.pdf-loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+.paginator {
+padding-top: 15px;
+}
+.paginator button{
+padding: 10px;
+}
+#overlayText {
+word-wrap: break-word;
+display: grid;
+justify-content: end;
+}
+#overlayText a {
+position: relative;
+top: 10px;
+right: 4px;
+color: #000;
+margin: auto;
+background-color: #eeeeee;
+padding: 0.3em 1em;
+border: solid 2px;
+border-radius: 12px;
+border-color: #00000030;
+text-decoration: none;
+}
+#overlayText svg {
+height: clamp(1em, 2vw, 1.4em);
+width: clamp(1em, 2vw, 1.4em);
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-bea3a976">
+&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-bea3a976">
+&lt;div class="pdf-loading" id="pdf-loading-bea3a976">&lt;/div>
+&lt;/div>
+&lt;div id="overlayText">
+&lt;a href="https://docs.cav-sh.com/pdf/yue/P8H.pdf" aria-label="Download" download>
+&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+&lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+&lt;/svg>
+&lt;/a>
+&lt;/div>
+&lt;canvas class="pdf-canvas" id="pdf-canvas-bea3a976">&lt;/canvas>
+&lt;/div>
+&lt;div class="pdf-paginator" id="pdf-paginator-bea3a976">
+&lt;button id="pdf-prev-bea3a976">上一页 &lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;button id="pdf-next-bea3a976">下一页&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;span>
+&lt;span class="pdf-pagenum" id="pdf-pagenum-bea3a976">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-bea3a976">&lt;/span>
+&lt;/span>
+&lt;a class="pdf-source" id="pdf-source-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">[下载pdf]&lt;/a>
+&lt;/div>
+&lt;noscript>
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-bea3a976" href="https://docs.cav-sh.com/pdf/yue/P8H.pdf">here&lt;/a>.
+&lt;/noscript>
+&lt;script type="text/javascript">
+(function(){
+var url = '\/pdf\/yue\/P8H.pdf';
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/docs.cav-sh.com\/" + 'js/pdf-js/build/pdf.worker.js';
+var pdfDoc = null,
+pageNum = selectedPageNum,
+pageRendering = false,
+pageNumPending = null,
+scale = 3,
+canvas = document.getElementById('pdf-canvas-bea3a976'),
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("pdf-paginator-bea3a976"),
+loadingWrapper = document.getElementById('pdf-loadingWrapper-bea3a976');
+showPaginator();
+showLoader();
+function renderPage(num) {
+pageRendering = true;
+pdfDoc.getPage(num).then(function(page) {
+var viewport = page.getViewport({scale: scale});
+canvas.height = viewport.height;
+canvas.width = viewport.width;
+var renderContext = {
+canvasContext: ctx,
+viewport: viewport
+};
+var renderTask = page.render(renderContext);
+renderTask.promise.then(function() {
+pageRendering = false;
+showContent();
+if (pageNumPending !== null) {
+renderPage(pageNumPending);
+pageNumPending = null;
+}
+});
+});
+document.getElementById('pdf-pagenum-bea3a976').textContent = num;
+}
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
+function queueRenderPage(num) {
+if (pageRendering) {
+pageNumPending = num;
+} else {
+renderPage(num);
+}
+}
+function onPrevPage() {
+if (pageNum &lt;= 1) {
+return;
+}
+pageNum--;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-prev-bea3a976').addEventListener('click', onPrevPage);
+function onNextPage() {
+if (pageNum >= pdfDoc.numPages) {
+return;
+}
+pageNum++;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-next-bea3a976').addEventListener('click', onNextPage);
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+pdfDoc = pdfDoc_;
+var numPages = pdfDoc.numPages;
+document.getElementById('pdf-pagecount-bea3a976').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
+renderPage(pageNum);
+});
+})();
+&lt;/script></description></item></channel></rss>
